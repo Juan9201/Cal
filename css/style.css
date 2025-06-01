@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('C:/Users/Juan_02/Desktop/Lerning/css/fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900; 
+    font-style: normal;
+}
+
+* {
+    font-family: 'Roboto';
+}
+
+body{
+    padding: 10px;
+    background-color: #000c0c;
+}
+
+header{
+    align-items: center;
+}
+
+
+.title {
+    justify-content: center;
+    align-items: center;
+    background-color: #73e2e2a1;
+    border-radius: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 20px;
+    padding: 7px;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin: 0%;
+}
+
+.cal {
+    text-align: center;
+    align-items: center;
+    color: #d8e9e7;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+
+.thcount{
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
