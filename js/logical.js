@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
             return;
         }
 
-        const resultCal = (((b / 100) * 20) - b) * a;
+        const resultCal = (b * 0.08) * a;
         spanResultado.textContent = resultCal.toFixed(2);
     }
 
